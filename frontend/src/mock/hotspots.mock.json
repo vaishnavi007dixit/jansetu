@@ -1,0 +1,38 @@
+{
+  "hotspots": [
+    {
+      "cluster_id": "cluster_01",
+      "category": "water",
+      "district": "North West Delhi",
+      "center_lat": 28.7041,
+      "center_lng": 77.1025,
+      "request_count": 42,
+      "priority_score": 91.2,
+      "explainability_text": "42 requests clustered here, water infra index in bottom quartile, aligns with Jal Jeevan Mission gap.",
+      "rank": 1
+    },
+    {
+      "cluster_id": "cluster_02",
+      "category": "road",
+      "district": "South Delhi",
+      "center_lat": 28.5245,
+      "center_lng": 77.1855,
+      "request_count": 27,
+      "priority_score": 74.5,
+      "explainability_text": "27 requests clustered here, road quality index below median, aligns with PMGSY connectivity gap.",
+      "rank": 2
+    },
+    {
+      "cluster_id": "cluster_03",
+      "category": "electricity",
+      "district": "East Delhi",
+      "center_lat": 28.6280,
+      "center_lng": 77.2900,
+      "request_count": 15,
+      "priority_score": 58.0,
+      "explainability_text": "15 requests clustered here, frequent outages reported, moderate priority.",
+      "rank": 3
+    }
+  ],
+  "generated_at": "2026-08-24T02:15:00Z"
+}

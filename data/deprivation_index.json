@@ -1,0 +1,10 @@
+{
+  "_comment": "Illustrative index values (0-1, higher = more deprived) for demo districts. Swap with real NITI Aayog / Census / SECC district indicators if you have time to source them before the demo — cite the source in the README either way.",
+  "North West Delhi": 0.72,
+  "South Delhi": 0.35,
+  "East Delhi": 0.58,
+  "North East Delhi": 0.81,
+  "West Delhi": 0.44,
+  "Central Delhi": 0.39,
+  "unknown": 0.5
+}

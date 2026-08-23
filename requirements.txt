@@ -1,0 +1,24 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pymongo==4.8.0
+python-dotenv==1.0.1
+pydantic==2.9.2
+python-multipart==0.0.9
+geopy==2.4.1
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.2
+requests==2.32.3
+
+# Optional TTS confirmation (Layer 2, node 4). Only needed if ELEVENLABS_API_KEY is set.
+elevenlabs==1.9.0
+
+# Optional: LangGraph for the pipeline orchestration (see pipeline/graph.py).
+# If install is slow, pipeline/graph.py also works as a plain function chain —
+# see the comment at the top of that file.
+langgraph==0.2.34
+langchain-core==0.3.9
+
+# openai-whisper is intentionally NOT listed here — see requirements-whisper.txt.
+# Its old setup.py needs pip's build isolation disabled (--no-build-isolation),
+# which only works cleanly as a separate install step. See Dockerfile.
